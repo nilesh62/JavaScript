@@ -1,2 +1,2 @@
-# test.js
+# Javascript
 javascript learning

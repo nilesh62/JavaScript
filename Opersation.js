@@ -1,96 +1,96 @@
-// let value = 3
-// let negValue = -value
+let value = 3
+let negValue = -value
 
-// // console.log(negValue);
+// console.log(negValue);
 
-// // console.log(2+2);
+// console.log(2+2);
 
-// // console.log(2-2);
+// console.log(2-2);
 
-// // console.log(2*2);
+// console.log(2*2);
 
-// // console.log(2**3);
+// console.log(2**3);
 
-// // console.log(4/4);
+// console.log(4/4);
 
-// str1 = "hello"
+str1 = "hello"
 
-// str2 = " Nilesh"
+str2 = " Nilesh"
 
-// str3 = str1 + str2
+str3 = str1 + str2
 
-// console.log(str3);
+console.log(str3);
 
-// console.log("1" + 1);
+console.log("1" + 1);
 
-// console.log("1" + "1");
+console.log("1" + "1");
 
-// console.log(1 + "1");
+console.log(1 + "1");
 
-// console.log(1 + 1);
+console.log(1 + 1);
 
-// console.log("1" + 1 + 1);
+console.log("1" + 1 + 1);
 
-// let str = 'a' + 'b';
+let str = 'a' + 'b';
 
-// console.log("1" +"1" + 1);
+console.log("1" +"1" + 1);
 
-// console.log(1 + 1 + "1");
-
-
-
-// function sum(a, b) { // a and b are parameters/arguments of sum function
-//     return a + b;
-// }
-// // minus operator
-
-// function sub(a, b) {
-//     return a - b
-// }
-
-// function multiply(a, b) {
-//     return a * b;
-// }
-
-// function multiply(a, b) {
-//     return a / b;
-// }
-
-// function modulus(a, b) { // calculates remainder, % is called as modulus operator
-//     return a % b;
-// }
-
-// let num1 = 30;
-// let num2 = 20;
+console.log(1 + 1 + "1");
 
 
 
-// console.log(sub(num1, num2));
+function sum(a, b) { // a and b are parameters/arguments of sum function
+    return a + b;
+}
+// minus operator
 
-// // assignment operators
-// // = equalTo
+function sub(a, b) {
+    return a - b
+}
 
-// let var1 = 'value1';
+function multiply(a, b) {
+    return a * b;
+}
 
-// // for numbers
-// // 1. assignment with increment (+=)
+function multiply(a, b) {
+    return a / b;
+}
 
-// let number1 = 10;
-// number1 += 2; // 12
+function modulus(a, b) { // calculates remainder, % is called as modulus operator
+    return a % b;
+}
 
-// //  number1 -= 4 // 8
-// // 2. assignment with decrement (-=)
+let num1 = 30;
+let num2 = 20;
 
-// let number2 = 10;
-// number2 -= 4; // 6
 
-// // increment operator (++)
-// let number3 = 20;
-// number ++ // 21
 
-// // decrement operator (--)
-// let number4 = 40;
-// number4 -- // 39
+console.log(sub(num1, num2));
+
+// assignment operators
+// = equalTo
+
+let var1 = 'value1';
+
+// for numbers
+// 1. assignment with increment (+=)
+
+let number1 = 10;
+number1 += 2; // 12
+
+//  number1 -= 4 // 8
+// 2. assignment with decrement (-=)
+
+let number2 = 10;
+number2 -= 4; // 6
+
+// increment operator (++)
+let number3 = 20;
+number ++ // 21
+
+// decrement operator (--)
+let number4 = 40;
+number4 -- // 39
 
 // & - ampersand
 // > greater than
@@ -113,6 +113,3 @@ if (number8 === number5) {// true
 if (number5 > number6) { // false
 
 }
-
-
-

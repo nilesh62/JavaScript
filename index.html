@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+
+<body>
+    <p><input type="text" id="first" placeholder="Enter number first"></p>
+    <p><input type="text" id="second" placeholder="Enter number second"></p>
+    <p id="para"><button type="button" onclick="clickButton()">Add</button></p>
+    <p>Sum: <span id="sum"></span></p>
+
+    <script>
+        function clickButton() {
+            const first = document.getElementById('first');
+            const second = document.getElementById('second');
+
+            const num1 = Number(first.value);
+            const num2 = Number(second.value);
+
+            const sum = num1 + num2;
+            const sumElement = document.getElementById('sum');
+            sumElement.innerHTML = sum;
+        }
+
+        // function onReady() {
+        //     const pr = document.getElementById('para');
+        //     // pr.innerText = 'Welcome <button type="button">Button 1</button>'
+        //     pr.innerHTML = 'Welcome  '
+        // }
+
+        // onReady();
+    </script>
+</body>
+
+</html>

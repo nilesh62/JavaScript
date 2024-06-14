@@ -105,15 +105,15 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 const myCoding = [
    {languageName: "javascript",
-    languageFileName: "js"
+    languageFileExtension: "js"
     
    },
    {languageName: "java",
-    languageFileName: "java"
+    languageFileExtension: "java"
     
    },
    {languageName: "python",
-    languageFileName: "py"
+    languageFileExtension: "py"
     
    }
 
@@ -123,5 +123,5 @@ const myCoding = [
 myCoding.forEach((item)=>{
     console.log(item);
 // console.log(item.languageName);
-// console.log(item.languageFileName);
+// console.log(item.languageFileExtension);
 })
